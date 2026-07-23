@@ -1,4 +1,4 @@
-# DSA Tracker
+# RecallDSA
 
 A full-stack web application to track and manage Data Structures & Algorithms (DSA) questions for interview preparation.
 
@@ -18,7 +18,7 @@ A full-stack web application to track and manage Data Structures & Algorithms (D
 
 
 
-DSA Tracker uses **Spaced Repetition**, a scientifically proven learning technique that maximizes knowledge retention and minimizes forgetting.
+RecallDSA uses **Spaced Repetition**, a scientifically proven learning technique that maximizes knowledge retention and minimizes forgetting.
 
 ### How Spaced Repetition Works
 
@@ -46,7 +46,7 @@ Let's say you solve your first DSA question on **Day 0**:
 
 ### Customizable Reminder Patterns
 
-DSA Tracker allows you to customize your revision pattern based on your learning pace:
+RecallDSA allows you to customize your revision pattern based on your learning pace:
 - **Aggressive**: 1, 2, 4, 7, 14 (for intensive learning)
 - **Balanced**: 1, 3, 7, 14, 21 (recommended)
 - **Relaxed**: 1, 5, 10, 20, 30 (for slower-paced learning)
@@ -66,7 +66,7 @@ DSA Tracker allows you to customize your revision pattern based on your learning
 
 ### Question Details
 <img width="929" height="717" alt="image" src="https://github.com/user-attachments/assets/84f063b3-e28f-4952-b731-50ea1a2c658c" />
-*View detailed information about a question with revision schedule*
+*View detailed information about a question with revision s chedule*
 
 ### Setting 
 <img width="875" height="818" alt="image" src="https://github.com/user-attachments/assets/6dae2d0e-89a2-429e-a6c7-719e75e991a4" />
@@ -90,8 +90,8 @@ Before you begin, ensure you have the following installed on your machine:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/ankit23-exe/DSA-Tracker.git
-cd DSA-Tracker
+git clone https://github.com/AayushGattani/RecallDSA.git
+cd RecallDSA
 ```
 
 ### Step 2: Setup Backend
@@ -116,7 +116,7 @@ Create a new file named `.env` in the Backend folder and add the value as shown 
 3. Create a new cluster
 4. Click "Connect" and copy the connection string
 5. Replace `your_mongodb_atlas_url_here` with your actual MongoDB connection string
-6. Example: `mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/dsa-tracker?retryWrites=true&w=majority`
+6. Example: `mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/recall-dsa?retryWrites=true&w=majority`
 
 #### Start the Backend:
 ```bash
@@ -175,7 +175,7 @@ You should see output showing the local development server URL (typically `http:
 ## 📁 Project Structure
 
 ```
-DSA-Tracker/
+RecallDSA/
 ├── Backend/
 │   ├── routes/
 │   ├── models/
@@ -214,7 +214,7 @@ If port 5000 is already in use, change the `PORT` in your Backend `.env` file an
 ### Backend (.env)
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `MONGODB_URI` | MongoDB connection string | `mongodb+srv://user:pass@cluster.mongodb.net/dsa-tracker` |
+| `MONGODB_URI` | MongoDB connection string | `mongodb+srv://user:pass@cluster.mongodb.net/recall-dsa` |
 | `PORT` | Server port | `5000` |
 | `NODE_ENV` | Environment | `development` |
 
@@ -244,7 +244,7 @@ I **LOVE** contributions! This project is open source and welcomes contributions
 ### Ideas for Contributions
 
 - 🐛 **Bug Fixes**: Found a bug? Help us squash it!
-- ✨ **New Features**: Have ideas to improve DSA Tracker? We'd love to hear them!
+- ✨ **New Features**: Have ideas to improve RecallDSA? We'd love to hear them!
 - 📚 **Documentation**: Help improve our README, guides, or comments
 - 🎨 **UI/UX Improvements**: Make the interface more beautiful and user-friendly
 - 🧪 **Testing**: Write tests to ensure the app works flawlessly
@@ -254,9 +254,9 @@ I **LOVE** contributions! This project is open source and welcomes contributions
 
 Please be respectful and constructive in all interactions. We're building this together as a community!
 
-**Questions about contributing?** Reach out to me on [Twitter](https://x.com/Ankit23_exe) or [Email](mailto:ankit23sep@gmail.com) - I'd be happy to help!
 
-Thank you for making DSA Tracker better! ❤️
+
+Thank you for making RecallDSA better! ❤️
 
 
 **Happy coding! 🚀 Good luck with your DSA preparation!**

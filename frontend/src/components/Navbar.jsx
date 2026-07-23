@@ -24,9 +24,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/dashboard" className="flex items-center group">
             <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center mr-2 group-hover:scale-110 transition-transform">
-              <span className="text-black font-bold text-lg">D</span>
+              <span className="text-black font-bold text-lg">R</span>
             </div>
-            <span className="text-xl font-bold premium-gradient-text hidden sm:inline">DSA Tracker</span>
+            <span className="text-xl font-bold premium-gradient-text hidden sm:inline">RecallDSA</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-1">

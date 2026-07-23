@@ -9,9 +9,9 @@ const Landing = () => {
           <div className="flex items-center justify-between h-20">
             <Link to="/" className="flex items-center group">
               <div className="w-10 h-10 bg-gradient-to-br from-white to-white/80 rounded-xl flex items-center justify-center mr-3 group-hover:scale-110 transition-transform shadow-lg shadow-white/10">
-                <span className="text-black font-black text-xl">D</span>
+                <span className="text-black font-black text-xl">R</span>
               </div>
-              <span className="text-2xl font-black premium-gradient-text tracking-tight">DSA Tracker</span>
+              <span className="text-2xl font-black premium-gradient-text tracking-tight">RecallDSA</span>
             </Link>
             <div className="flex items-center gap-3">
               <Link to="/login" className="px-5 py-2.5 text-sm font-bold text-white hover:text-white transition-colors rounded-lg hover:bg-white/5">
@@ -165,7 +165,7 @@ const Landing = () => {
               {
                 step: '02',
                 title: 'Log Your Solution',
-                description: 'Add the question to DSA Tracker with details, difficulty, category, and your notes.'
+                description: 'Add the question to RecallDSA with details, difficulty, category, and your notes.'
               },
               {
                 step: '03',
@@ -222,14 +222,14 @@ const Landing = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center">
               <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center mr-2">
-                <span className="text-black font-bold text-lg">D</span>
+                <span className="text-black font-bold text-lg">R</span>
               </div>
-              <span className="text-xl font-bold premium-gradient-text">DSA Tracker</span>
+              <span className="text-xl font-bold premium-gradient-text">RecallDSA</span>
             </div>
 
             <div className="flex items-center gap-6">
               <a 
-                href="https://www.linkedin.com/in/ankit23-exe/" 
+                href="https://www.linkedin.com/in/aayushgattani" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white/40 hover:text-white transition-colors"
@@ -241,19 +241,7 @@ const Landing = () => {
               </a>
 
               <a 
-                href="https://x.com/Ankit23_exe" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-white/40 hover:text-white transition-colors"
-                aria-label="X (Twitter)"
-              >
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-
-              <a 
-                href="https://github.com/ankit23-exe" 
+                href="https://github.com/AayushGattani" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white/40 hover:text-white transition-colors"
@@ -268,7 +256,7 @@ const Landing = () => {
 
           <div className="mt-8 pt-8 border-t border-white/5 text-center">
             <p className="text-white/30 text-sm">
-              © 2026 DSA Tracker. Built with ❤️ for developers who never stop learning.
+              © 2026 RecallDSA. Built with ❤️ for developers who never stop learning.
             </p>
           </div>
         </div>

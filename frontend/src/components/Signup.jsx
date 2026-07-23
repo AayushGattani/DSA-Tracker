@@ -55,7 +55,7 @@ const Signup = () => {
 
       <div className="premium-card w-full max-w-md p-8 relative z-10">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold premium-gradient-text mb-2">DSA Tracker</h1>
+          <h1 className="text-4xl font-bold premium-gradient-text mb-2">RecallDSA</h1>
           <p className="text-white/50 text-sm">Crafting Your Technical Excellence</p>
         </div>
 

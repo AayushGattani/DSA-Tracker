@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 export const connectDB = async () => {
-  const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/dsa-tracker';
+  const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/recall-dsa';
 
   try {
     await mongoose.connect(MONGODB_URI);

@@ -1,5 +1,5 @@
 {
-  "name": "dsa-tracker-backend",
+  "name": "recall-dsa-backend",
   "version": "1.0.0",
   "description": "Backend for Daily Question Practice & Revision Tracker",
   "main": "index.js",

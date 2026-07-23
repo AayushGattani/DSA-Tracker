@@ -45,7 +45,7 @@ app.get('/api/health', (req, res) => {
 // Root endpoint
 app.get('/', (req, res) => {
   res.json({
-    message: 'DSA Tracker API',
+    message: 'RecallDSA API',
     version: '1.0.0',
     endpoints: {
       auth: '/api/auth',
